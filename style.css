@@ -1,0 +1,10 @@
+.lab {
+	padding-right: 0.2em;
+}
+
+body {
+	font-family: sans-serif;
+	line-height: 1.5em;
+	width: 50%;
+	margin: 3em auto 0 auto;
+}
