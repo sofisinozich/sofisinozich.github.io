@@ -5,11 +5,11 @@
 body {
 	font-family: sans-serif;
 	line-height: 1.5em;
-	width: 50%;
+	width: 75%;
 	margin: 3em auto 0 auto;
 }
 
-#twowide {
+#background {
 	display: flex;
 	width: 100%;
 	flex-direction: column;
@@ -19,6 +19,8 @@ body {
 	#twowide {
 		flex-direction: row;
 	}
+	
+	width: 50%;
 }
 
 
