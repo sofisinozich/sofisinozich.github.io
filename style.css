@@ -2,10 +2,15 @@
 	padding-right: 0.2em;
 }
 
+/* p.tldr {
+	font-style: italic;
+} */
+
 body {
 	font-family: sans-serif;
 	line-height: 1.5em;
 	width: 75%;
+	max-width:75%;
 	margin: 3em auto 0 auto;
 }
 
@@ -16,11 +21,9 @@ body {
 }
 
 @media screen and (min-width:1000px) {
-	#twowide {
-		flex-direction: row;
+	body {
+		width: 50%;
 	}
-	
-	width: 50%;
 }
 
 
